@@ -5,8 +5,8 @@ import Information from './Information'
 const CoverPage = () => {
     
     const width = useScreenSize()
-    const mobile = 'intro-section-with-dropdown-navigation/cover/image-hero-mobile.png'
-    const desktop = 'intro-section-with-dropdown-navigation/cover/image-hero-desktop.png'
+    const mobile = 'cover/image-hero-mobile.png'
+    const desktop = 'cover/image-hero-desktop.png'
 
     return(
         <div className="coverpage">

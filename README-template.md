@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Sebitass47/intro-section-with-dropdown-navigation)
-- Live Site URL: [Github Pages](http://sebitass47.github.io/intro-section-with-dropdown-navigation)
+- Live Site URL: [Github Pages](https://sebitass47.github.io/intro-section-with-dropdown-navigation)
 
 ## My process
 
