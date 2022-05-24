@@ -23,7 +23,7 @@ const NavLinks = () => {
         <div className="navlinks">
             <ul>
                 <li className="navlink" onClick={showFeatures}>
-                    Features <img src={featuresVisible ? arrowUp: arrowDown} className="arrow"/>
+                    Features <img src={featuresVisible ? arrowUp: arrowDown} className="arrow" alt='arrow'/>
                 </li>
                     {featuresVisible ? 
                     <div className='drop-list features'>
@@ -34,7 +34,7 @@ const NavLinks = () => {
                     </div>: null}
 
                 <li className="navlink " onClick={showCompany}>
-                    Company <img src={companyVisible ? arrowUp: arrowDown} className="arrow"/>
+                    Company <img src={companyVisible ? arrowUp: arrowDown} className="arrow" alt='arrow'/>
                     
                 </li>
                     {companyVisible ? 

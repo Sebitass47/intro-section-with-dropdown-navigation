@@ -10,10 +10,9 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Notes](#notes)
 - [Author](#author)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -37,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Sebitass47/intro-section-with-dropdown-navigation)
+- Live Site URL: [Github Pages](http://sebitass47.github.io/intro-section-with-dropdown-navigation)
 
 ## My process
 
@@ -47,6 +46,11 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - CSS custom properties
 - Flexbox
+
+### Notes
+
+The website is only designed for screen sizes from 1080px to 1440px and from 340px to 600px, it is not designed for tablets
+
 
 
 ## Author
