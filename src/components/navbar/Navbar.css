@@ -1,0 +1,204 @@
+.navbar{
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.menu{
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.navlinks-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    animation: appear 0.3s linear;
+}
+
+.logo-container{
+    margin-top: auto;
+}
+
+
+
+.navsession{
+    margin-left: auto;
+}
+
+.navsession ul{
+    padding: 0;
+}
+
+.navlink{
+    display: inline;
+    margin: 0 15px;
+    padding: 0;
+    color: hsl(0, 0%, 41%);
+    cursor: pointer;
+}
+
+.navlink:hover{
+    color: hsl(0, 0%, 8%);
+}
+
+.navlink a:hover{
+    color: hsl(0, 0%, 8%);
+}
+
+.navlink a{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+}
+
+.register{
+    padding: 10px 15px;
+    border: 2px solid hsl(0, 0%, 41%);
+    border-radius: 10px;
+}
+
+.register:hover{
+    border: 2px solid hsl(0, 0%, 8%);
+}
+
+.drop-list{
+    margin: 10px;
+    padding: 1px 20px;
+    color: hsl(0, 0%, 41%);
+    animation: down 0.3s ease;
+    position: absolute;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.drop-list p{
+    line-height: 1;
+    cursor: pointer;
+}
+
+.drop-list p:hover{
+    color: hsl(0, 0%, 8%);
+}
+
+.features{
+    top: 50px;
+    left: 135px;
+}
+
+.company{
+    top: 50px;
+    left: 290px;
+}
+
+.list-icons{
+    margin: 2px 10px 0 0;
+}
+
+@keyframes appear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes down {
+    0%{
+        transform: translateY(-35px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .navlinks-container{
+        position: fixed;
+        flex-direction: column;
+        height: 100%;
+        width: 60%;
+        top: 0;
+        right: 0;
+        background-color: hsl(0, 0%, 98%);
+        align-items: normal;
+        z-index: 1;
+        box-shadow: -200px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .logo-container{
+        margin-top: 10px;
+    }
+
+    .menu{
+        visibility: visible;
+        margin-left: auto;
+        margin: auto 0 auto auto;
+    }
+
+    .close{
+        align-self: flex-end;
+        width: 25px;
+        margin: 15px;
+        cursor: pointer;
+
+    }
+
+    .navsession{
+        margin: 0;
+        text-align: center;
+    }
+    
+    .navsession ul{
+        padding: 0;
+    }
+    
+    .navlink{
+        display: block;
+        margin: 25px 20px;
+        color: hsl(0, 0%, 41%);
+        cursor: pointer;
+    }
+
+    .navlinks ul{
+        padding: 0;
+       
+    }
+
+    .drop-list{
+        width: 80%;
+        margin: 0;
+        padding: 0 0 0 40px;
+        color: hsl(0, 0%, 41%);
+        animation: down 0.3s ease;
+        position: static;
+        background-color:hsl( 0, 0%, 98%) ;
+        box-shadow: none;
+    
+    }
+    
+    .drop-list p{
+        line-height: 1.5;
+        cursor: pointer;
+    }
+    
+    .drop-list p:hover{
+        color: hsl(0, 0%, 8%);
+    }
+
+    .list-icons{
+        margin: 2px 10px 0 0;
+    }
+    
+}
+
